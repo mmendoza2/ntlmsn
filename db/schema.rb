@@ -1,57 +1,3 @@
-<<<<<<< HEAD
-# encoding: UTF-8
-# This file is auto-generated from the current state of the database. Instead
-# of editing this file, please use the migrations feature of Active Record to
-# incrementally modify your database, and then regenerate this schema definition.
-#
-# Note that this schema.rb definition is the authoritative source for your
-# database schema. If you need to create the application database on another
-# system, you should be using db:schema:load, not running all the migrations
-# from scratch. The latter is a flawed and unsustainable approach (the more migrations
-# you'll amass, the slower it'll run and the greater likelihood for issues).
-#
-# It's strongly recommended that you check this file into your version control system.
-
-ActiveRecord::Schema.define(version: 20130315230445) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
-  create_table "microposts", force: true do |t|
-    t.string   "content"
-    t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "microposts", ["user_id", "created_at"], name: "index_microposts_on_user_id_and_created_at", using: :btree
-
-  create_table "relationships", force: true do |t|
-    t.integer  "follower_id"
-    t.integer  "followed_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "relationships", ["followed_id"], name: "index_relationships_on_followed_id", using: :btree
-  add_index "relationships", ["follower_id", "followed_id"], name: "index_relationships_on_follower_id_and_followed_id", unique: true, using: :btree
-  add_index "relationships", ["follower_id"], name: "index_relationships_on_follower_id", using: :btree
-
-  create_table "users", force: true do |t|
-    t.string   "name"
-    t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "password_digest"
-    t.string   "remember_token"
-    t.boolean  "admin"
-  end
-
-  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
-  add_index "users", ["remember_token"], name: "index_users_on_remember_token", using: :btree
-
-end
-=======
 # encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
@@ -150,47 +96,47 @@ ActiveRecord::Schema.define(version: 20140115080947) do
   add_index "estados", ["slug"], name: "index_estados_on_slug", using: :btree
 
   create_table "eventos", force: true do |t|
-    t.string   "nombre"
-    t.string   "descripcion"
-    t.datetime "fecha"
-    t.string   "photo"
-    t.string   "urloficial"
-    t.string   "artista"
-    t.string   "entradatipo"
-    t.string   "precio"
-    t.integer  "votos"
-    t.string   "ranking"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "photo_file_name"
-    t.string   "photo_content_type"
-    t.integer  "photo_file_size"
-    t.datetime "photo_updated_at"
-    t.string   "slug"
-    t.string   "diaevento"
-    t.string   "d1"
-    t.string   "d2"
-    t.string   "d3"
-    t.string   "d4"
-    t.string   "d5"
-    t.string   "d6"
-    t.string   "d7"
-    t.string   "d8"
-    t.string   "d9"
-    t.string   "d10"
-    t.string   "estado"
-    t.string   "poblacion"
-    t.integer  "principal"
-    t.integer  "fechainicio"
-    t.integer  "fechafin"
-    t.integer  "mes"
-    t.integer  "dia"
-    t.integer  "actividad"
-    t.string   "fotografia"
-    t.integer  "institucion"
-    t.integer  "user_id"
-    t.integer  "estado_id"
-    t.integer  "actividad_id"
+    t.string    "nombre"
+    t.string    "descripcion"
+    t.timestamp "fecha",              precision: 6
+    t.string    "photo"
+    t.string    "urloficial"
+    t.string    "artista"
+    t.string    "entradatipo"
+    t.string    "precio"
+    t.integer   "votos"
+    t.string    "ranking"
+    t.datetime  "created_at"
+    t.datetime  "updated_at"
+    t.string    "photo_file_name"
+    t.string    "photo_content_type"
+    t.integer   "photo_file_size"
+    t.datetime  "photo_updated_at"
+    t.string    "slug"
+    t.string    "diaevento"
+    t.string    "d1"
+    t.string    "d2"
+    t.string    "d3"
+    t.string    "d4"
+    t.string    "d5"
+    t.string    "d6"
+    t.string    "d7"
+    t.string    "d8"
+    t.string    "d9"
+    t.string    "d10"
+    t.string    "estado"
+    t.string    "poblacion"
+    t.integer   "principal"
+    t.integer   "fechainicio"
+    t.integer   "fechafin"
+    t.integer   "mes"
+    t.integer   "dia"
+    t.integer   "actividad"
+    t.string    "fotografia"
+    t.integer   "institucion"
+    t.integer   "user_id"
+    t.integer   "estado_id"
+    t.integer   "actividad_id"
   end
 
   add_index "eventos", ["slug"], name: "index_eventos_on_slug", using: :btree
@@ -395,4 +341,3 @@ ActiveRecord::Schema.define(version: 20140115080947) do
   add_index "users", ["slug"], name: "index_users_on_slug", using: :btree
 
 end
->>>>>>> 6f2c93a9df106239e5c83788d64f9790def1a623
