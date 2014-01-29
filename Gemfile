@@ -1,10 +1,10 @@
-source 'https://rubygems.org'
+  source 'https://rubygems.org'
 ruby '2.0.0'
 #ruby-gemset=ntlcom
 
 gem 'rails', '4.0.0'
 gem 'bootstrap-sass'
-gem 'bcrypt-ruby', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
@@ -24,6 +24,7 @@ gem 'google_places'
 
 
 group :development, :test do
+  gem 'pg', '0.15.1'
   gem 'rspec-rails', '2.13.1'
   # The following optional lines are part of the advanced setup.
   gem 'guard-rspec', '2.5.0'
@@ -58,13 +59,12 @@ gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
 gem 'jquery-ui-rails'
-gem 'pg', '0.15.1'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
 group :production do
-
+  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end

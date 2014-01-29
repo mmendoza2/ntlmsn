@@ -3,7 +3,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: ntlmsn_dev
+  database: notelimites_dev
   username: Meme
   password:
   host: localhost

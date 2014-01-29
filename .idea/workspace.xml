@@ -15,11 +15,16 @@
     <file path="/secret_token.rb" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390927767528" ignored="false" />
     <file path="/session_store.rb" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390927776930" ignored="false" />
     <file path="/Gemfile" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390957138754" ignored="false" />
-    <file path="$PROJECT_DIR$/../ntlcom/Gemfile" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390955311905" ignored="false" />
+    <file path="$PROJECT_DIR$/../ntlcom/Gemfile" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958552278" ignored="false" />
     <file path="$PROJECT_DIR$/config/initializers/inflections.rb" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390927416902" ignored="false" />
     <file path="$PROJECT_DIR$/config/initializers/mime_types.rb" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390927416902" ignored="false" />
-    <file path="/database.yml" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390954893669" ignored="false" />
-    <file path="/Dummy.txt" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390955227024" ignored="false" />
+    <file path="/database.yml" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958767543" ignored="false" />
+    <file path="/Dummy.txt" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958573621" ignored="false" />
+    <file path="$PROJECT_DIR$/../ntlcom/Gemfile.lock" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958552278" ignored="false" />
+    <file path="$PROJECT_DIR$/../ntlcom/app/assets/javascripts/application.js" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958552278" ignored="false" />
+    <file path="$PROJECT_DIR$/../ntlcom/app/assets/stylesheets/application.css" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958552278" ignored="false" />
+    <file path="$PROJECT_DIR$/../ntlcom/app/views/actividades/index.html.erb" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958552278" ignored="false" />
+    <file path="$PROJECT_DIR$/../notelimites/config/database.yml" changelist="07adb94e-4419-453c-b167-136975c068d5" time="1390958767543" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +44,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="21" selection-start="742" selection-end="1216" vertical-scroll-proportion="0.84421366">
+            <state line="51" column="21" selection-start="742" selection-end="1216" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="348" column="25" selection-start="8358" selection-end="8358" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="8359" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -448,14 +453,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -617,16 +622,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="25" selection-start="8358" selection-end="8358" vertical-scroll-proportion="0.0">
+        <state line="51" column="21" selection-start="742" selection-end="1216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="21" selection-start="742" selection-end="1216" vertical-scroll-proportion="0.84421366">
+        <state line="0" column="0" selection-start="0" selection-end="8359" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
