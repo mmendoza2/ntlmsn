@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env ruby
 
 vendored_cucumber_bin = Dir["#{File.dirname(__FILE__)}/../vendor/{gems,plugins}/cucumber*/bin/cucumber"].first
@@ -8,3 +9,15 @@ else
   require 'cucumber'
   load Cucumber::BINARY
 end
+=======
+#!/usr/bin/env ruby
+
+vendored_cucumber_bin = Dir["#{File.dirname(__FILE__)}/../vendor/{gems,plugins}/cucumber*/bin/cucumber"].first
+if vendored_cucumber_bin
+  load File.expand_path(vendored_cucumber_bin)
+else
+  require 'rubygems' unless ENV['NO_RUBYGEMS']
+  require 'cucumber'
+  load Cucumber::BINARY
+end
+>>>>>>> 6f2c93a9df106239e5c83788d64f9790def1a623

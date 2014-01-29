@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 <%= form_for(current_user.relationships.build(followed_id: @user.id),
              remote: true) do |f| %>
   <div><%= f.hidden_field :followed_id %></div>
   <%= f.submit "Follow", class: "btn btn-large btn-primary" %>
+=======
+<%= form_for(current_user.relationships.build(followed_id: @user.id), remote: true) do |f| %>
+    <div><%= f.hidden_field :followed_id %></div>
+    <%= f.submit "Seguir", class: "btn btn-large btn-primary" %>
+>>>>>>> 6f2c93a9df106239e5c83788d64f9790def1a623
 <% end %>

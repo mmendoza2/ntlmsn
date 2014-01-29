@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 <% if @feed_items.any? %>
   <ol class="microposts">
     <%= render partial: 'shared/feed_item', collection: @feed_items %>
   </ol>
   <%= will_paginate @feed_items %>
+=======
+<% if @feed_items.any? %>
+  <ol class="microposts">
+    <%= render partial: 'shared/feed_item', collection: @feed_items %>
+  </ol>
+  <%= will_paginate @feed_items %>
+>>>>>>> 6f2c93a9df106239e5c83788d64f9790def1a623
 <% end %>
